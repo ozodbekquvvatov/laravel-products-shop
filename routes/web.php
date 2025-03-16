@@ -29,6 +29,7 @@ Route::get('/', function (                                                   ) {
 //         'status' => 'active',
 //         'password' => bcrypt('12345678'),
 
+
 //     ]);
 // $users = DB::table('users')->delete('10 ');
 // dd($users);
