@@ -31,9 +31,10 @@ Route::get('/', function (                                                   ) {
 
 
 //     ]);
-// $users = DB::table('users')->delete('10 ');
+        // $users = DB::table('users')->where('id', operator: 9)->delete();
+
 // dd($users);
-    //  return view('welcome',compact('users'));
+     return view('welcome',compact('users'));
 });
 
 
