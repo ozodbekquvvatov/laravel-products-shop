@@ -31,7 +31,7 @@ Route::get('/', function (                                                   ) {
 
 
 //     ]);
-        // $users = DB::table('users')->where('id', operator: 9)->delete();
+        // $users = DB::table('users')->where('id', operator: 10)->delete();
 
 // dd($users);
      return view('welcome',compact('users'));
