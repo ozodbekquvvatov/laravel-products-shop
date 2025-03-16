@@ -8,4 +8,5 @@
         <label>Price:</label>
         <input type="number" step="0.01" name="price" value="{{ $product->price }}" required>
         <button type="submit">Update</button>
+
     </form>
